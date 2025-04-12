@@ -1,6 +1,6 @@
 # Elytra ESP
 
-![A Elytra wearing piglin being highlighted by the mod](https://github.com/underscore-zi/flying-pigs-esp/blob/master/mod-example.png?raw=true)
+![Mod highlighting a piglin wearing an elytra and an elytra on the ground](https://github.com/therealmeteor/elytra-esp/master/mod-example.png?raw=true)
 
 Meteor module to highlight any elytra item on the ground and/or any mob wearing an elytra.
 
