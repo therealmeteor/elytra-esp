@@ -1,4 +1,4 @@
-package org.little_canada.mc.flyingpigs;
+package com.itzmeteor.mc.elytraesp;
 
 import com.mojang.logging.LogUtils;
 import meteordevelopment.meteorclient.addons.GithubRepo;
@@ -7,13 +7,13 @@ import meteordevelopment.meteorclient.systems.modules.Category;
 import meteordevelopment.meteorclient.systems.modules.Modules;
 import org.slf4j.Logger;
 
-public class AddonTemplate extends MeteorAddon {
+public class Addon extends MeteorAddon {
     public static final Logger LOG = LogUtils.getLogger();
-    public static final Category CATEGORY = new Category("__zi");
+    public static final Category CATEGORY = new Category("iTzMeteor");
 
     @Override
     public void onInitialize() {
-        Modules.get().add(new FlyingPigESP());
+        Modules.get().add(new ElytraESP());
     }
 
     @Override
@@ -23,11 +23,11 @@ public class AddonTemplate extends MeteorAddon {
 
     @Override
     public String getPackage() {
-        return "org.little_canada.mc.flyingpigs.FlyingPigESP";
+        return "com.itzmeteor.mc.elytraesp";
     }
 
     @Override
     public GithubRepo getRepo() {
-        return new GithubRepo("underscore-zi", "flying-pigs-esp");
+        return new GithubRepo("therealmeteor", "elytra-esp");
     }
 }

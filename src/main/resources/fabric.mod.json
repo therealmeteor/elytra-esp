@@ -1,21 +1,17 @@
 {
   "schemaVersion": 1,
-  "id": "flying-pigs-esp",
+  "id": "elytra-esp",
   "version": "${version}",
-  "name": "Flying Pigs ESP",
-  "description": "An addon to see piglins with elytra.",
-  "authors": [
-    "__zi"
-  ],
+  "name": "Elytra ESP",
+  "description": "An addon to see elytras around you.",
+  "authors": ["iTzMeteor"],
   "contact": {
-    "repo": "https://github.com/underscore-zi/flying-pigs-esp"
+    "repo": "https://github.com/therealmeteor/elytra-esp"
   },
   "icon": "assets/template/icon.png",
   "environment": "client",
   "entrypoints": {
-    "meteor": [
-      "org.little_canada.mc.flyingpigs.AddonTemplate"
-    ]
+    "meteor": ["com.itzmeteor.mc.elytraesp.Addon"]
   },
   "mixins": [],
   "custom": {
